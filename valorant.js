@@ -38,8 +38,8 @@ while( winattaque < 13 && windefense < 13 ){
             let randomdefenseur = getRandomInt(defenseurs.length)
             let defenseur = defenseurs[randomdefenseur]
             console.log(jettattaquant + ' a tué' + defenseur + ' quel clutch de la part de jett !')
-            console.log(defenseurs.length + ' défenseurs encore en vie !')
             defenseurs.splice(randomdefenseur, 1)
+            console.log(defenseurs.length + ' défenseurs encore en vie !')
 
             if(Math.random() <= 0.6 && attaquants.length == 5 && defenseurs.length == 4){
 
@@ -92,8 +92,8 @@ while( winattaque < 13 && windefense < 13 ){
             let randomdefenseur = getRandomInt(defenseurs.length)
             let defenseur = defenseurs[randomdefenseur]
             console.log(attaquant + ' a tué' + defenseur )
-            console.log(defenseurs.length + ' défenseurs encore en vie !')
             defenseurs.splice(randomdefenseur, 1)
+            console.log(defenseurs.length + ' défenseurs encore en vie !')
             
 
             if(Math.random() <= 0.6 && attaquants.length == 5 && defenseurs.length == 4){
@@ -148,8 +148,8 @@ while( winattaque < 13 && windefense < 13 ){
             let randomdefenseur = getRandomInt(defenseurs.length)
             let defenseur = defenseurs[randomdefenseur]
             console.log(defenseur + ' a tué' + attaquant )
-            console.log(attaquants.length + ' attaquants encore en vie !')
             attaquants.splice(randomattaquant, 1)
+            console.log(attaquants.length + ' attaquants encore en vie !')
             
 
             if(Math.random() <= 0.4 && attaquants.length == 4 && defenseurs.length == 5){
